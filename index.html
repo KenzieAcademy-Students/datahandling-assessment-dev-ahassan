@@ -21,7 +21,17 @@
 
   <body style="text-align: center;">
     <h1>Kenzie Movie Catalog</h1>
-    Write Your HTML Here!
+    <form id="searchForm">
+      <input type="text" id="titleInput" placeholder="Search by Movie Title" />
+      <br/>
+      <br/>
+      <input type="text" id="actorInput" placeholder="Search by Actor/Actress" />
+      <br/>
+      <br/>
+      <button type="submit">Search</button>
+    </form>
+    <br/>
+    <div id="movieContainer"></div>
     <script src="movieDetails.js"></script>
     <script src="movies.js"></script>
     <script src="code.js"></script>
